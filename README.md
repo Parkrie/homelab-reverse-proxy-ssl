@@ -20,8 +20,6 @@ The reverse proxy runs inside an LXC container on a dedicated virtualization hos
 
 ```
 
-```
-
 ![Proxy Flow](https://raw.githubusercontent.com/Parkrie/homelab-reverse-proxy-ssl/main/diagrams/proxy-flow.png)
 
 ---
