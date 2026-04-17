@@ -19,7 +19,7 @@ Rather than exposing services through port forwarding, all external access requi
 The reverse proxy runs inside an LXC container on a dedicated virtualization host, sitting on the server VLAN. It acts as the single entry point for all internal service traffic. Each service gets its own subdomain, and the router resolves every subdomain to the proxy container's internal IP. The proxy then routes requests to the correct service based on the hostname.
 
 ```
-![Proxy Flow](diagrams/proxy-flow.png)
+![Proxy Flow](./diagrams/proxy-flow.png)
 ```
 
 ---
